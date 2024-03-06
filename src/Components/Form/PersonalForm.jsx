@@ -1,5 +1,5 @@
 
-function PersonalInfo({ onChangeFunction, FullName, Phone, Email, GitLink }) {
+function PersonalForm({ onChangeFunction, FullName, Phone, Email, GitLink }) {
   return (
     <div className="flex flex-col gap-3 p-5 ">
       <h1 className="font-bold text-white text-xl">Private Info</h1>
@@ -15,4 +15,4 @@ function PersonalInfo({ onChangeFunction, FullName, Phone, Email, GitLink }) {
   );
 }
 
-export default PersonalInfo;
+export default PersonalForm;
