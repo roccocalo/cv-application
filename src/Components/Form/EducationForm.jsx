@@ -14,8 +14,9 @@ function EducationForm(props) {
           <input type="text" placeholder="Start Date" value={startDate} onChange={(e) => onChange(index, e)} data-key="startDate" className="inputForm" />
           <input type="text" placeholder="End Date" value={endDate} onChange={(e) => onChange(index, e)} data-key="endDate" className="inputForm" />
           <input type="text" placeholder="Location" value={location} onChange={(e) => onChange(index, e)} data-key="location" className="inputForm" />
-        </div>
-        <button className="bg-slate-300 rounded-lg p-1 " onClick={() => onDelete(index, id)}>Delete Education</button>
+        </div  >
+        <div className="flex justify-center">
+        <button className="bg-slate-200 rounded-lg border border-sky-600 w-fit text-slate-900 px-4  p-1 " onClick={() => onDelete(index, id)}>Delete Education</button></div>
       </div>
     </>
   )

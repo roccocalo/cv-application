@@ -15,9 +15,10 @@ function ExperienceForm(props) {
             <input type="text" placeholder="Location" value={location} onChange={(e) => onChange(index, e)} data-key="location" className="inputForm" />
           </div>
           <div className="flex gap-5 ">
-          <textarea placeholder="Description" value={description} onChange={(e) => onChange(index, e)} data-key="description" rows={3} className="rounded w-full p-1 pl-2" />
+          <textarea placeholder="Description" value={description} onChange={(e) => onChange(index, e)} data-key="description" rows={3} className="rounded w-full p-1 text-slate-700 bg-slate-200 pl-2" />
           </div>
-          <button className="bg-slate-300 rounded-lg p-1 " onClick={() => onDelete(index, id)}>Delete Experience</button>
+          <div className="flex justify-center">
+          <button className="bg-slate-200 border w-fit px-4 text-slate-900 border-sky-600 rounded-lg p-1  " onClick={() => onDelete(index, id)}>Delete Experience</button></div>
         </div>
       </>
     )

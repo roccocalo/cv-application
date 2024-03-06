@@ -2,7 +2,7 @@
 function PersonalForm({ onChangeFunction, FullName, Phone, Email, GitLink }) {
   return (
     <div className="flex flex-col gap-3 p-5 ">
-      <h1 className="font-bold text-white text-xl">Private Info</h1>
+      <h1 className="font-bold text-sky-600 text-xl">Private Info</h1>
       <div className="flex gap-5 " >
         <input type="text" placeholder="Full Name" value={FullName} onChange={onChangeFunction} data-key="fullName" className="inputForm" />
         <input type="text" placeholder="Phone" value={Phone} onChange={onChangeFunction} data-key="phone" className="inputForm" />

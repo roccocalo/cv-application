@@ -4,6 +4,6 @@
 
 @layer components {
     .inputForm {
-        @apply rounded w-1/2 p-1 pl-2
+        @apply rounded-md text-slate-700 w-1/2 p-1 pl-2 bg-slate-200
     }
 }
