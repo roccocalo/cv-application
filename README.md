@@ -2,7 +2,7 @@ CV Builder web application that allows users to create professional-looking CV a
 
 ## Preview
 
-![alt text](public/preview.png)
+![alt text](/Images/preview.png)
 
 ## Built With
 
