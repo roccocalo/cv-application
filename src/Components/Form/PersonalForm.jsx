@@ -1,5 +1,6 @@
 
 function PersonalForm({ onChangeFunction, FullName, Phone, Email, GitLink }) {
+
   return (
     <div className="flex flex-col gap-3 p-5 ">
       <h1 className="font-bold text-sky-600 text-xl">Private Info</h1>

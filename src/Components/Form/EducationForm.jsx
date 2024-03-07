@@ -1,4 +1,3 @@
-
 function EducationForm(props) {
   const { degree, instituteName, location, startDate, endDate, id } = props.form;
   const { onChange, onDelete, index } = props;
@@ -16,7 +15,7 @@ function EducationForm(props) {
           <input type="text" placeholder="Location" value={location} onChange={(e) => onChange(index, e)} data-key="location" className="inputForm" />
         </div  >
         <div className="flex justify-center">
-        <button className="bg-slate-200 rounded-lg border border-sky-600 w-fit text-slate-900 px-4  p-1 " onClick={() => onDelete(index, id)}>Delete Education</button></div>
+          <button className="bg-slate-200 rounded-lg border border-sky-600 w-fit text-slate-900 px-4  p-1 " onClick={() => onDelete(index, id)}>Delete Education</button></div>
       </div>
     </>
   )
