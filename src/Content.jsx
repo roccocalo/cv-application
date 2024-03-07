@@ -115,7 +115,7 @@ function Content() {
 
           <div className="flex justify-center mt-5">
             <ReactToPrint
-              trigger={() => <button className="bg-sky-600 text-white text-xl rounded-lg py-2 px-4"><span className="flex gap-2 justify-center items-center"> <img className="w-5 mt-1" src="src/Images/download.svg" alt="gith icon" />Download</span></button>}
+              trigger={() => <button className="bg-sky-600 text-white text-xl rounded-lg py-2 px-4"><span className="flex gap-2 justify-center items-center"> <img className="w-5 mt-1" src="public/Images/download.svg" alt="gith icon" />Download</span></button>}
               content={() => componentRef.current}
             /> </div>
         </div>

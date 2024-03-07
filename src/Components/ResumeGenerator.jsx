@@ -8,9 +8,9 @@ function ResumeGenerator({ dataInfo, dataEducation, dataExperience }) {
                 <div className="mt-8 ">
                     <p className="text-center font-bold text-4xl">{dataInfo.fullName}</p>
                     <span className="flex justify-center items-center gap-3 mt-3 text-xl">
-                        <span className="flex gap-1 justify-center items-center"> <img className="w-5 mt-1" src="src/Images/mail.svg" alt="phone icon" /><p>{dataInfo.email}</p> </span>
-                        <span className="flex gap-1 justify-center items-center"> <img className="w-5 mt-1" src="src/Images/phone.svg" alt="phone icon" /><p className="mt-1">{dataInfo.phone}</p>  </span>
-                        <span className="flex gap-1 justify-center items-center"> <img className="w-5 mt-1" src="src/Images/github.svg" alt="gith icon" /> <p>{dataInfo.gitLink}</p></span>
+                        <span className="flex gap-1 justify-center items-center"> <img className="w-5 mt-1" src="public/Images/mail.svg" alt="phone icon" /><p>{dataInfo.email}</p> </span>
+                        <span className="flex gap-1 justify-center items-center"> <img className="w-5 mt-1" src="public/Images/phone.svg" alt="phone icon" /><p className="mt-1">{dataInfo.phone}</p>  </span>
+                        <span className="flex gap-1 justify-center items-center"> <img className="w-5 mt-1" src="public/Images/github.svg" alt="gith icon" /> <p>{dataInfo.gitLink}</p></span>
                     </span>
                 </div>
 
